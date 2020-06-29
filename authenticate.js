@@ -1,4 +1,5 @@
 // JavaScript source code
+//this piece of code is for authenticating  user login details while a user try to login with username and password.
 var bcrypt = require('bcrypt')
  
 var connection = require('./config');
