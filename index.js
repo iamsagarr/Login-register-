@@ -1,5 +1,5 @@
 // JavaScript source code
-//this is main source code for this Api,here i imported all the router paths,routers to handle our get and post requests.
+//this is the main source code for this Api,here i imported all the router paths,routers to handle our get and post requests.
 //need to install node modules express,bodyParser.
 var express=require("express");
 var bodyParser=require('body-parser'); 
