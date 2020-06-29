@@ -1,5 +1,6 @@
 // JavaScript source code
-//this for creating a connection for our mysql database
+//this  peace of code is for creating a connection to your mysql database
+// here i'm using mysql for storing userdetails,a lotmore databases available like mangodb,firestoredb etc..
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     :'localhost',
