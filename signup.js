@@ -1,11 +1,13 @@
 // JavaScript source code
-var Cryptr = require('cryptr');
+//for signing up new user and pushing user details into database.
+//as this is sql database,it consists of tables where it stores data in a sequence,here users is the table to where data is pushed.
+//var Cryptr = require('cryptr');
 var express=require("express");
 var connection = require('./config');
 // cryptr = new Cryptr('myTotalySecretKey');
  
 module.exports.register=function(req,res){
-    var today = new Date();
+   // var today = new Date();
  // var encryptedString = cryptr.encrypt(req.body.password);
     var users={
         "username":req.body.username,
